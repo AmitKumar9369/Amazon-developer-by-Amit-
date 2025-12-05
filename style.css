@@ -1,0 +1,763 @@
+                                                        @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+                                                        * {
+                                                            margin: 0;
+                                                            font-family: Arial;
+                                                            border: border-box;
+                                                        }
+                                                        
+                                                        body {
+                                                            background-color: #e2e7e6;
+                                                        }
+                                                        
+                                                        .navbar {
+                                                            height: 60px;
+                                                            background-color: #0f1111;
+                                                            color: white;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: space-evenly;
+                                                        }
+                                                        
+                                                        .nav-logo {
+                                                            height: 50px;
+                                                            width: 100px;
+                                                        }
+                                                        
+                                                        .logo {
+                                                            background-image: url(/amazon_pics/home/amazon_logo.png);
+                                                            height: 50px;
+                                                            width: 100px;
+                                                            background-size: cover;
+                                                        }
+                                                        
+                                                        .in {
+                                                            margin-left: 99px;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            padding-top: 17px;
+                                                            font-size: medium;
+                                                        }
+                                                        
+                                                        .border {
+                                                            border: 1px solid transparent;
+                                                            margin-left: 5px;
+                                                            width: 120px;
+                                                        }
+                                                        
+                                                        .border:hover {
+                                                            border: 1px solid white;
+                                                            margin-left: 5px;
+                                                            width: 120px;
+                                                        }
+                                                        /** second**/
+                                                        
+                                                        .add-first a {
+                                                            text-decoration: none;
+                                                            color: darkgrey;
+                                                        }
+                                                        
+                                                        .add-first {
+                                                            color: #cccccc;
+                                                            font-size: 12px;
+                                                            font-weight: lighter;
+                                                            margin-left: 25px;
+                                                            width: 140px;
+                                                            display: flex;
+                                                            padding-top: 10px;
+                                                        }
+                                                        
+                                                        .add-second a {
+                                                            text-decoration: none;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .add-second {
+                                                            font-size: 15px;
+                                                            font-weight: bold;
+                                                            display: inline;
+                                                        }
+                                                        
+                                                        .nav-add {
+                                                            border: 1px solid #0f1111;
+                                                        }
+                                                        
+                                                        .border-one {
+                                                            margin-left: 5px;
+                                                            width: 180px;
+                                                            height: 50px;
+                                                        }
+                                                        
+                                                        .border-one:hover {
+                                                            border: 1px solid white;
+                                                            width: 180px;
+                                                            height: 50px;
+                                                        }
+                                                        /** box 3**/
+                                                        
+                                                        .nav-search {
+                                                            display: flex;
+                                                            justify-content: space-evenly;
+                                                            width: 800px;
+                                                            height: 40px;
+                                                            border-radius: 4px;
+                                                            margin-left: 5px;
+                                                            border: 2px solid #0f1111;
+                                                            border-top-left-radius: 6px;
+                                                            border-bottom-left-radius: 6px;
+                                                        }
+                                                        
+                                                        .nav-search:hover {
+                                                            border: 2px solid chocolate;
+                                                            border-top-left-radius: 7px;
+                                                            border-bottom-left-radius: 7px;
+                                                            border-top-right-radius: 7px;
+                                                            border-bottom-right-radius: 7px;
+                                                        }
+                                                        
+                                                        .Search-select {
+                                                            background-color: #f3f3f3;
+                                                            width: 50px;
+                                                            text-align: center;
+                                                            border-top-left-radius: 6px;
+                                                            border-bottom-left-radius: 6px;
+                                                            border: none;
+                                                        }
+                                                        
+                                                        .search-input {
+                                                            width: 100%;
+                                                            font-size: 15px;
+                                                            border: none;
+                                                        }
+                                                        
+                                                        .search-icon {
+                                                            width: 50px;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            font-size: 1.25rem;
+                                                            background-color: rgba(230, 160, 29, 0.849);
+                                                            border-top-right-radius: 6px;
+                                                            border-bottom-right-radius: 6px;
+                                                            border: none;
+                                                            color: black;
+                                                        }
+                                                        
+                                                        .border-1 {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            border: 1px solid #0f1111;
+                                                            height: 50px;
+                                                            width: 90px;
+                                                        }
+                                                        
+                                                        .border-1:hover {
+                                                            border: 1px solid white;
+                                                            height: 50px;
+                                                            width: 90px;
+                                                        }
+                                                        
+                                                        .border-three {
+                                                            border: 1px solid #0f1111;
+                                                            height: 50px;
+                                                            width: 120px;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .border-three:hover {
+                                                            border: 1px solid white;
+                                                            height: 50px;
+                                                            width: 120px;
+                                                        }
+                                                        
+                                                        .border-four {
+                                                            border: 1px solid #0f1111;
+                                                            height: 50px;
+                                                            width: 90px;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .border-four:hover {
+                                                            border: 1px solid white;
+                                                            height: 50px;
+                                                            width: 90px;
+                                                        }
+                                                        
+                                                        .border-five {
+                                                            border: 1px solid #0f1111;
+                                                            height: 50px;
+                                                            width: 90px;
+                                                            text-align: center;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .border-five:hover {
+                                                            height: 50px;
+                                                            width: 90px;
+                                                            border: 1px solid white;
+                                                        }
+                                                        
+                                                        .nav-second a {
+                                                            color: #cccccc;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .nav-singin a {
+                                                            color: #f3f3f3;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        #img {
+                                                            width: 23px;
+                                                            height: 23px;
+                                                            position: absolute;
+                                                            top: 19px;
+                                                            right: 420px;
+                                                        }
+                                                        
+                                                        .logo a {
+                                                            color: white;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .img-languge {
+                                                            display: inline-block;
+                                                            position: absolute;
+                                                            margin-left: -20px;
+                                                        }
+                                                        /** Box 4 **/
+                                                        
+                                                        span {
+                                                            font-size: 0.7rem;
+                                                        }
+                                                        
+                                                        .nav-second {
+                                                            font-size: 0.85rem;
+                                                            font-weight: bolder;
+                                                        }
+                                                        
+                                                        .chart {
+                                                            padding-right: 10px;
+                                                        }
+                                                        
+                                                        .charts a {
+                                                            text-decoration: none;
+                                                            color: #f3f3f3;
+                                                        }
+                                                        
+                                                        .chart-Link {
+                                                            font-size: x-large;
+                                                        }
+                                                        
+                                                        .chart-Link a {
+                                                            color: #f3f3f3;
+                                                        }
+                                                        
+                                                        .charts {
+                                                            font-size: small;
+                                                        }
+                                                        
+                                                        #md {
+                                                            width: 15px;
+                                                            height: 15px;
+                                                            background-color: #0f1111;
+                                                            border: 1px solid #0f1111;
+                                                            color: white;
+                                                        }
+                                                        /** panel**/
+                                                        
+                                                        .panel {
+                                                            height: 40px;
+                                                            background-color: #222f3d;
+                                                            display: flex;
+                                                            color: #f3f3f3;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .panel-all {
+                                                            margin-left: 20px;
+                                                            margin-right: 20px;
+                                                        }
+                                                        
+                                                        .panel-all a {
+                                                            color: white;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        #mdd {
+                                                            background-color: #222f3d;
+                                                            width: 15px;
+                                                            height: 15px;
+                                                            border: 1px solid #222f3d;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .panel-ops p {
+                                                            display: inline;
+                                                            margin-left: 12px;
+                                                        }
+                                                        
+                                                        .panel-ops a {
+                                                            color: #f3f3f3;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .panel-ops {
+                                                            font-size: 13px;
+                                                            width: 800px;
+                                                        }
+                                                        
+                                                        .img-ops {
+                                                            margin-left: 300px;
+                                                        }
+                                                        
+                                                        .Time-to {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            color: white;
+                                                            position: absolute;
+                                                            right: 19px;
+                                                        }
+                                                        /** hero section **/
+                                                        
+                                                        .slider {
+                                                            height: 400px;
+                                                            overflow: hidden;
+                                                            position: relative;
+                                                        }
+                                                        
+                                                        .bolder {
+                                                            padding-left: 20px;
+                                                            padding-right: 20px;
+                                                            height: 100%;
+                                                        }
+                                                        
+                                                        .slides {
+                                                            height: 400px;
+                                                            display: flex;
+                                                            animation: slide 70s infinite linear;
+                                                            -webkit-animation: slide 160s infinite linear;
+                                                        }
+                                                        
+                                                        .slides img {
+                                                            padding-right: 0px;
+                                                            width: 100%;
+                                                            height: 900px;
+                                                            background-size: cover;
+                                                        }
+                                                        
+                                                        @keyframes slide {
+                                                            0% {
+                                                                transform: translateX(0%);
+                                                            }
+                                                            10% {
+                                                                transform: translateX(-100%);
+                                                                -webkit-transform: translateX(-100%);
+                                                                -moz-transform: translateX(-100%);
+                                                                -ms-transform: translateX(-100%);
+                                                                -o-transform: translateX(-100%);
+                                                            }
+                                                            20% {
+                                                                transform: translateX(-100%);
+                                                            }
+                                                            30% {
+                                                                transform: translateX(-100%);
+                                                            }
+                                                            40% {
+                                                                transform: translateX(-200%);
+                                                            }
+                                                            50% {
+                                                                transform: translateX(-200%);
+                                                            }
+                                                            60% {
+                                                                transform: translateX(-300%);
+                                                            }
+                                                            70% {
+                                                                transform: translateX(-300%);
+                                                            }
+                                                            80% {
+                                                                transform: translateX(-400%);
+                                                            }
+                                                            90% {
+                                                                transform: translateX(-300%);
+                                                            }
+                                                            100% {
+                                                                transform: translateX(-300%);
+                                                            }
+                                                        }
+                                                        /** shop **/
+                                                        
+                                                        .box44 {
+                                                            padding: 3px;
+                                                            margin: 3px;
+                                                            height: 150px;
+                                                            background: white;
+                                                            width: 360px;
+                                                        }
+                                                        
+                                                        .butt {
+                                                            padding-top: 20px;
+                                                            width: 260px;
+                                                        }
+                                                        
+                                                        .sign-in {
+                                                            padding-top: 20px;
+                                                            padding-left: 30px;
+                                                            width: 260px;
+                                                            height: 100px;
+                                                        }
+                                                        
+                                                        .butt button {
+                                                            background-color: rgb(247, 193, 18);
+                                                            width: 298px;
+                                                            height: 30px;
+                                                            text-align: center;
+                                                            border: none;
+                                                            font-weight: 600;
+                                                            font-size: 15px;
+                                                            font-weight: lighter;
+                                                            border-radius: 20px;
+                                                            -webkit-border-radius: 20px;
+                                                            -moz-border-radius: 20px;
+                                                            -ms-border-radius: 20px;
+                                                            -o-border-radius: 20px;
+                                                        }
+                                                        
+                                                        .brand-1 {
+                                                            height: 110px;
+                                                        }
+                                                        
+                                                        .brand img {
+                                                            width: 150px;
+                                                            height: 150px;
+                                                        }
+                                                        
+                                                        .brand-1 .mda img {
+                                                            width: 360px;
+                                                            height: 110px;
+                                                        }
+                                                        
+                                                        .brand a h4 {
+                                                            font-weight: lighter;
+                                                        }
+                                                        
+                                                        .brand {
+                                                            height: 260px;
+                                                            margin-top: 50px;
+                                                            text-align: center;
+                                                            background-color: white;
+                                                        }
+                                                        
+                                                        .box h2 {
+                                                            font-weight: lighter;
+                                                            font-weight: 550;
+                                                        }
+                                                        
+                                                        section {
+                                                            background-color: #e2e7e6;
+                                                        }
+                                                        
+                                                        .shop-section {
+                                                            display: flex;
+                                                            justify-content: space-evenly;
+                                                            padding-top: 14px;
+                                                            width: 97.8%;
+                                                            padding-left: 20px;
+                                                        }
+                                                        
+                                                        .box {
+                                                            padding: 20px;
+                                                            width: 330px;
+                                                            height: 400px;
+                                                            background-color: white;
+                                                        }
+                                                        
+                                                        h4 {
+                                                            font-weight: 300;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        h6 {
+                                                            font-weight: lighter;
+                                                            font-size: 12px;
+                                                        }
+                                                        
+                                                        h5 {
+                                                            color: rgb(95, 95, 250);
+                                                            font-weight: lighter;
+                                                            font-size: small;
+                                                        }
+                                                        
+                                                        a {
+                                                            color: black;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .a1 {
+                                                            display: flex;
+                                                            display: inline-block;
+                                                            align-items: center;
+                                                            margin: 10px;
+                                                        }
+                                                        /**slider**/
+                                                        
+                                                        .container-one {
+                                                            display: flex;
+                                                            display: inline-block;
+                                                            width: 95.5%;
+                                                            box-sizing: border-box;
+                                                            overflow: hidden;
+                                                            cursor: pointer;
+                                                            background-color: rgb(252, 251, 251);
+                                                            margin-top: 20px;
+                                                            margin-left: 30px;
+                                                            padding-right: 10px;
+                                                        }
+                                                        
+                                                        .texttt h4 {
+                                                            font-size: 23px;
+                                                            font-weight: bolder;
+                                                            padding: 10px;
+                                                        }
+                                                        
+                                                        .texttt a {
+                                                            font-size: small;
+                                                            padding-left: 15px;
+                                                            color: rgb(50, 156, 218);
+                                                        }
+                                                        /** crousel **/
+                                                        
+                                                        .crousel {
+                                                            margin: 10px;
+                                                            width: 100%;
+                                                            display: flex;
+                                                            overflow-x: auto;
+                                                        }
+                                                        /* .crousel::-webkit-scrollbar {
+                                                            display: none;
+                                                        }
+                                                         */
+                                                        
+                                                        .card {
+                                                            flex: 0 0 5em;
+                                                            font-size: 3em;
+                                                            text-align: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .group {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            gap: 1em;
+                                                            animation: spin 500s infinite linear;
+                                                            -webkit-animation: spin 500s infinite linear;
+                                                            padding-right: 1em;
+                                                            scroll-behavior: smooth;
+                                                        }
+                                                        
+                                                        @keyframes spin {
+                                                            from {
+                                                                translate: 0;
+                                                            }
+                                                            to {
+                                                                translate: -100%;
+                                                            }
+                                                        }
+                                                        /** second slider **/
+                                                        
+                                                        .crousel-b {
+                                                            margin: 10px;
+                                                            width: 100%;
+                                                            display: flex;
+                                                            overflow-x: auto;
+                                                            margin-bottom: 20px;
+                                                        }
+                                                        
+                                                        .card-q {
+                                                            flex: 0 0 5em;
+                                                            font-size: 3em;
+                                                            text-align: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .card-q {
+                                                            flex: 0 0 5em;
+                                                            font-size: 3em;
+                                                            text-align: center;
+                                                            align-items: center;
+                                                            background-image: cover;
+                                                        }
+                                                        
+                                                        .group-c {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            gap: 1em;
+                                                            padding-right: 1em;
+                                                            animation: spin 170s infinite linear;
+                                                            -webkit-animation: spin 170s infinite linear;
+                                                        }
+                                                        
+                                                        @keyframes spinn {
+                                                            from {
+                                                                translate: 0;
+                                                            }
+                                                            to {
+                                                                translate: -100%;
+                                                            }
+                                                            to {
+                                                                translate: 0%;
+                                                            }
+                                                        }
+                                                        
+                                                        .container-one-a {
+                                                            display: flex;
+                                                            display: inline-block;
+                                                            width: 95.5%;
+                                                            box-sizing: border-box;
+                                                            overflow: hidden;
+                                                            cursor: pointer;
+                                                            background-color: rgb(252, 251, 251);
+                                                            margin-top: 20px;
+                                                            margin-left: 30px;
+                                                            padding-right: 10px;
+                                                        }
+                                                        
+                                                        .texttt-d h4 {
+                                                            font-size: 23px;
+                                                            font-weight: bolder;
+                                                            padding: 10px;
+                                                        }
+                                                        
+                                                        .texttt-d a {
+                                                            font-size: small;
+                                                            padding-left: 15px;
+                                                            color: rgb(50, 156, 218);
+                                                        }
+                                                        
+                                                        .boxes {
+                                                            padding-left: 10px;
+                                                        }
+                                                        
+                                                        .boxes-1 {
+                                                            margin: 10px;
+                                                            width: 50px;
+                                                            height: 60px;
+                                                            display: flex;
+                                                            display: inline-block;
+                                                        }
+                                                        
+                                                        .nu {
+                                                            display: flex;
+                                                            display: inline;
+                                                        }
+                                                        /**star rating**/
+                                                        
+                                                        .star-rating {
+                                                            color: orange;
+                                                            text-align: left;
+                                                            padding-left: 10px;
+                                                            font-size: 30px;
+                                                        }
+                                                        
+                                                        .news-latter {
+                                                            width: 1200px;
+                                                            height: 200px;
+                                                            position: absolute;
+                                                            left: 180px;
+                                                            background-color: white;
+                                                            margin: 20px;
+                                                        }
+                                                        
+                                                        .new-1 {
+                                                            text-align: center;
+                                                            width: 800px;
+                                                            padding-top: 40px;
+                                                            position: absolute;
+                                                            left: 300px;
+                                                            top: -0px;
+                                                            text-align: left;
+                                                            padding-left: 200px;
+                                                            padding-top: 10px;
+                                                        }
+                                                        
+                                                        .ra {
+                                                            padding-top: 10px;
+                                                        }
+                                                        
+                                                        .new-1 button {
+                                                            background-color: orange;
+                                                            width: 100px;
+                                                            height: 30px;
+                                                            border: 2px solid orange;
+                                                            border-radius: 15px;
+                                                        }
+                                                        /**card slider start**/
+                                                        
+                                                        .footer-section {
+                                                            width: 100%;
+                                                            height: 500px;
+                                                            background-color: #080808;
+                                                            color: #cccccc;
+                                                        }
+                                                        
+                                                        .text-nameTotop {
+                                                            background-color: #0c0c0c;
+                                                            height: 30px;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .footerTotext {
+                                                            padding-top: 10px;
+                                                            display: flex;
+                                                        }
+                                                        
+                                                        .footerBox1 {
+                                                            display: inline-block;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            padding-left: 160px;
+                                                            margin-top: 20px;
+                                                        }
+                                                        
+                                                        .footerBox1 a {
+                                                            color: white;
+                                                            font-size: larger;
+                                                            padding: 20px;
+                                                        }
+                                                        
+                                                        .text-nameTotop:hover {
+                                                            background-color: #35475a;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .text-nameTotop span {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            padding-top: 7px;
+                                                            font-size: larger;
+                                                        }
+                                                        
+                                                        .contact-information .link-1 {
+                                                            display: flex;
+                                                            display: inline-block;
+                                                            text-align: center;
+                                                            justify-content: center;
+                                                            font-size: larger;
+                                                            font-weight: 800;
+                                                            padding-left: 30px;
+                                                            padding-top: 16px;
+                                                        }
+                                                        
+                                                        .contact-information {
+                                                            background-color: #0c0c0c;
+                                                            height: 60px;
+                                                            text-align: center;
+                                                            justify-content: center;
+                                                        }
